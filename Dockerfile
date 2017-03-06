@@ -37,22 +37,22 @@ LABEL org.freenas.interactive="false" \
               \"env\": \"PUID\", \
               \"descr\": \"UserID\", \
               \"optional\": true \
-         }, \
-         { \
+          }, \
+          { \
               \"env\": \"OPENVPN_USERNAME\" \
               \"descr\": \"OpenVPN Username\", \
               \"optional\": false \
-         }, \
-         { \
+          }, \
+          { \
               \"env\": \"OPENVPN_PASSWORD\" \
               \"descr\": \"OpenVPN Password\", \
               \"optional\": false \
-         }, \
-         { \
+          }, \
+          { \
               \"env\": \"OPENVPN_PROVIDER\" \
               \"descr\": \"OpenVPN Provider\", \
               \"optional\": false \
-         } \
+          } \
       ]"
 
 RUN apk add --no-cache openvpn
